@@ -1,0 +1,21 @@
+{
+  "name": "pg-monitor-sdk",
+  "version": "1.0.0",
+  "description": "前端监控SDK【错误监控、用户埋点、PV/UV统计】",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "scripts": {
+    "serve": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "files": ["lib"],
+  "keywords": ["SDK", "前端监控", "监控","sdk"],
+  "author": "PG <lz2083324660@qq.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^3.20.2",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^5.0.4"
+  }
+}
